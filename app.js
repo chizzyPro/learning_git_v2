@@ -12,6 +12,15 @@ setTimeout(() => {
 	if(document.querySelector(.className)){
 	document.querySelector(.className).remove()
 	}
-}, 2000)
+}, 2000)}
+
+
+function setLocalStorage(store){
+let item;
+if(!localStorage.getItem(store)){
+item = []
+}
+item.push(store)
+localStorage.setItem(JSON.stringify(item))
 }
 
