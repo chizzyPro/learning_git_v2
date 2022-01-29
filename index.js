@@ -1,4 +1,4 @@
-const posts = [{title:'Post One', body:"This is the body for post one"}, 
+let posts = [{title:'Post One', body:"This is the body for post one"}, 
 		{title:"Post Two", body:"This is the body for post two"}]
 	
 
@@ -7,5 +7,5 @@ function getPost(posts){
 	console.log(`${post.title}: ${post.body}`)
 	})
 }
-getPost(posts)
+getPost(post)
 
